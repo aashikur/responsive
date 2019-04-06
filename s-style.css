@@ -1,0 +1,73 @@
+
+form.sec-scr input::placeholder {
+    color: #c3b4b4 !important;
+    font-size:13px;
+}
+form.sec-scr input {
+    border: 1px solid gainsboro;
+    border-left: 0;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+form.sec-scr p {
+    border-radius: 42px;
+    border: 1px solid gainsboro;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form.sec-scr p i {
+    padding-left: 7px;
+    color: #d4caca;
+}
+
+.recom_link .tag_link {
+    color: #a9a6a6;
+    text-decoration: none;
+    border: 1px solid #a9a5a6;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2px 2px;
+}
+
+.recom_link .tag_link:first-child, .recom_link .tag_link:hover {
+    border: 1px solid #717171;
+    color: #403e3e;
+}
+
+.plan.sec_pln {
+    border-top: 1px solid #e0e0e0;
+}
+
+.single_plan.sec_sig {
+    border: 1px solid gainsboro;
+}
+
+.pln_title.sec_rec,.recom.sec_rec h2 {
+    color: #383737;
+}
+
+.single_plan.sec_sig h2 {
+    color: #3a3a3a;
+    font-weight: normal;
+}
+
+.single_plan.sec_sig h2 span {
+    background: #585858;
+}
+
+.single_plan.sec_sig .cat_of span {
+    color: #191818;
+}
+
+.single_plan.sec_sig .icon i {
+    color: #717171;
+}
+
+.single_plan.sec_sig .icon i:hover, .single_plan.sec_sig .icon i:first-child {
+    color: #3a3737;
+}
